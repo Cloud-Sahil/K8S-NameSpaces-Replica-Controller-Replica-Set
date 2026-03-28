@@ -1,5 +1,12 @@
 # Kubernetes Relication Controller
 ---
+## Old way of managing Pods.
+
+### Key points:
+ - Ensures specified number of Pod replicas
+ - Uses **equality-based selectors only**
+ - **Deprecated** (replaced by ReplicaSet)
+---
 ## Write rc Yaml File 
 ~~~sh
 nano rc.yaml
