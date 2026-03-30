@@ -46,10 +46,6 @@ spec:
         ports:
         - containerPort: 80
 ```
-### Check Pod
-```sh
-kubectl get pods
-```
 
 ### Apply 
 ```sh
