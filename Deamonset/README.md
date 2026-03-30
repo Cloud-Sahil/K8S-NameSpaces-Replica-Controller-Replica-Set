@@ -7,6 +7,13 @@
  - Automatically schedules pods on newly added nodes.
  - Ensures uninterrupted system monitoring and logging.
 
+
+### Use Cases
+
+ - Log collection (e.g., Fluentd, Logstash).
+ - Monitoring (e.g., Prometheus Node Exporter).
+ - Network plugins (e.g., Calico, Weave).
+
 ---
 ```sh
 apiVersion: apps/v1
