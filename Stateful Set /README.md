@@ -23,6 +23,7 @@
  - Distributed systems (Kafka, Zookeeper)
  - Applications requiring persistent data
 ---
+### Write yaml file
 ```sh
 nano database.yaml
 ```
@@ -82,4 +83,16 @@ spec:
                 value: redhat
              ports:
                 - containerPort: 3306
+```
+### Apply file
+```sh
+kubectl apply -f database.yaml
+```
+### Check pods
+```sh
+kubectl get pods
+```
+### Delete pods
+```sh
+kubectl delete pod <name>
 ```
