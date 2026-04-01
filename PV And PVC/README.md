@@ -9,4 +9,5 @@ A **Persistent Volume Claim** is a request for storage by a user. Pods use PVCs 
 
 ### Dynamic Provisioning
 Dynamic provisioning automatically creates PVs based on a PVC when a StorageClass is specified. This is particularly useful for cloud-based storage systems like AWS EBS.
+
 ---
