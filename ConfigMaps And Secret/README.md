@@ -39,3 +39,7 @@ A **Secret** is a Kubernetes resource designed to store confidential data, such 
 
 ---
 ## 1. Create Configmap -
+### Write `config.yaml`
+```sh
+nano config.yaml
+```
