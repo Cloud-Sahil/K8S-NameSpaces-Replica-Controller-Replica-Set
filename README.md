@@ -11,7 +11,7 @@
 **5. Deployments**
   - Rolling update
   - Rolling out
-  - 
+
 **6. Stateful Set  -- Use in database**
     
 **7. Configmap And Secrets** 
