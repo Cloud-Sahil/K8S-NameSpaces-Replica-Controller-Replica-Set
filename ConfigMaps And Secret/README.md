@@ -35,6 +35,7 @@ A **Secret** is a Kubernetes resource designed to store confidential data, such 
 | Security Level | Low | Higher |
 | Storage | Stored as plain text in etcd | Stored encoded in etcd |
 | Access Control | Basic | Use RBAC for strict control |
+| Command | Kubectl create configmap | Kubectl create secret |
 | Example | DB host, app config | DB password, API token |
 
 ---
