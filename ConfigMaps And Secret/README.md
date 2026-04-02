@@ -100,6 +100,7 @@ kubectl get configmap my-cred
 ```sh
 kubectl describe configmap my-cred
 ```
+---
 ## 2. Create Secret -
 ### Write `secret.yaml`
 ```sh
