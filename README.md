@@ -1,4 +1,4 @@
-# Kuberneties
+# Kuberneties (K8S)
 ---
 **1. NameSpace**
 
