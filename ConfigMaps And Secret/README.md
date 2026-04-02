@@ -32,7 +32,7 @@ A **Secret** is a Kubernetes resource designed to store confidential data, such 
 | Purpose | Store non-sensitive data | Store sensitive data |
 | Data Type | Plain text | Base64 encoded |
 | Use Case | App configs, env variables | Passwords, tokens, API keys |
-| Security | Not secure | More secure (can enable encryption) |
+| Security Level | Low | Higher |
 | Storage | Stored as plain text in etcd | Stored encoded in etcd |
 | Access Control | Basic | Use RBAC for strict control |
 | Example | DB host, app config | DB password, API token |
