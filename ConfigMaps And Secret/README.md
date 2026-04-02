@@ -134,3 +134,7 @@ echo -n "redhat" | base64
 ```sh
 echo -n "admin" | base64
 ```
+### Check City
+```sh
+echo -n "city" | base64
+```
