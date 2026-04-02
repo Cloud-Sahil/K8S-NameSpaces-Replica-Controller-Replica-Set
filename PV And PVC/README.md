@@ -195,3 +195,9 @@ kubectl get pods -o wide
 ### Test Again
 ```sh
 curl `<ip>`
+```
+---
+### Check Disk Space Usage
+```sh
+df -hT
+```
