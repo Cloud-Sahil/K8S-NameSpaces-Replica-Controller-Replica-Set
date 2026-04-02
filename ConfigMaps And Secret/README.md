@@ -61,3 +61,41 @@ kubectl apply -f config.yaml
 ```sh
 kubectl get configmap
 ```
+### Write `my-config.yaml`
+```sh
+nano my-config.yaml
+```
+```sh
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+        - name: app-container
+          image: nginx
+          envFrom:
+            - configMapRef:
+                name: my-configmap
+```
+### Apply My-config
+```sh
+kubectl apply -f my-config.yaml
+```
+### Check configmap my-cred
+```sh
+kubectl get configmap my-cred
+```
+### Describe configmap 
+```sh
+kubectl describe configmap my-cred
+```
