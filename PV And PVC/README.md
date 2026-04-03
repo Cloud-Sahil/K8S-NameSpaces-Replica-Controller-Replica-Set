@@ -1,4 +1,4 @@
-# Kuberneties Persistent Volume(PV) And Persistent Volume Claim(PVC)
+# Kubernetes Persistent Volume(PV) And Persistent Volume Claim(PVC)
 ---
 ## Introduction
 ### Persistent Volume (PV)
