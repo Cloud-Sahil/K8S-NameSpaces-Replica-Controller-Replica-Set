@@ -1,4 +1,4 @@
-# Kuberneties Configmap And Secret 
+# Kubernetes Configmap And Secret 
 ---
 ## Introduction
 ### What is a ConfigMap?
