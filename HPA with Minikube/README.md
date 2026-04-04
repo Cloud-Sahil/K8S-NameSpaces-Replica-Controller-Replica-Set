@@ -93,7 +93,7 @@ spec:
 ```bash
 kubectl apply -f  service.yaml
 ```
-
+---
 ## Create Hpa.yaml
 ```bash
 vim hpa.yaml
@@ -123,7 +123,7 @@ spec:
 ```bash
 kubectl apply -f hpa.yaml
 ```
-
+---
 ## Generate Load
 ```bash
 kubectl run -i --tty load-generator --image=busybox /bin/sh
@@ -133,14 +133,13 @@ kubectl run -i --tty load-generator --image=busybox /bin/sh
 ```bash
 while true; do wget -q -O- http://hpa-service; done
 ```
-
 ## check
 - take an ssh on another terminal to check the cluster pods and hpa 
 ```bash
 kubectl get hpa -w
 kubectl get pods
 ```
-
+---
 ## Stop Minikube
 ```bash
 minikube stop
