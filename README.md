@@ -30,3 +30,5 @@
   - Horizontal Pod Autoscaler (HPA)
   - Vertical Pod Autoscaler (VPA)
   - Cluster Autoscaler
+
+**10. HPA with Minikube**
