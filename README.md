@@ -24,3 +24,9 @@
 **7. Configmap And Secrets** 
 
 **8. Persistent Volume(PV) And Persistent Volume Claim(PVC)**
+
+**9. AutoScaling**
+
+  - Horizontal Pod Autoscaler (HPA)
+  - Vertical Pod Autoscaler (VPA)
+  - Cluster Autoscaler
